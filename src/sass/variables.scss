@@ -1,0 +1,17 @@
+$bodyPaddingY: 1rem;
+$backgroundColorPrimary: #fde1ff;
+$backgroundColorSecondary: #d0d8ff;
+$backgroundColorAccent: lightblue;
+$h1: 3rem;
+$p: 1.125rem;
+
+/* Copied from node_modules/bootstrap/scss/_variables.scss */
+$breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+) !default;
+
+$transition: all 0.1s ease-in-out;

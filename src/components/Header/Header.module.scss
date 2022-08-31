@@ -1,0 +1,9 @@
+@use 'src/sass/variables' as vars;
+
+.header {
+  margin-bottom: 1rem;
+
+  .nav {
+    background-color: vars.$backgroundColorSecondary;
+  }
+}

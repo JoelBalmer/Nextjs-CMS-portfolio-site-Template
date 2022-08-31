@@ -1,0 +1,27 @@
+@use 'variables' as vars;
+@import 'bootstrap/dist/css/bootstrap.css';
+@import 'react-image-lightbox/style.css';
+
+body {
+  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  padding-top: vars.$bodyPaddingY;
+  padding-bottom: vars.$bodyPaddingY;
+  background-color: vars.$backgroundColorPrimary;
+
+  h1 {
+    font-size: vars.$h1;
+  }
+
+  p {
+    font-size: vars.$p;
+  }
+}
+
+.hover-scale {
+  transition: vars.$transition;
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+  }
+}

@@ -1,0 +1,13 @@
+@use 'src/sass/variables' as vars;
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  background-color: vars.$backgroundColorSecondary;
+}
